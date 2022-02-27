@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.kafka",
+    "module": "kafka-storage",
+    "version": "3.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kafka-storage-3.1.0-SNAPSHOT.jar",
+          "url": "kafka-storage-3.1.0-SNAPSHOT.jar",
+          "size": 89898,
+          "sha512": "e204ece3e2a1fea146ed05ca0718cd31939d85e45b4e35fcd3c7930fe4f9a42e426bb9d30114a3e2ccacd0314e2bbd031f9afb5754b6c53fbae79af8425593a2",
+          "sha256": "defaf4794121679bc5b09ce756ed41b4937fd216214ed57b47f47630209df1cd",
+          "sha1": "009c283e4e8f7d1860f31322185846d94c72daff",
+          "md5": "feaf4c6793d9a3c3e0b9ba5750be3f95"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-storage-api",
+          "version": {
+            "requires": "3.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-server-common",
+          "version": {
+            "requires": "3.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-clients",
+          "version": {
+            "requires": "3.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.12.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kafka-storage-3.1.0-SNAPSHOT.jar",
+          "url": "kafka-storage-3.1.0-SNAPSHOT.jar",
+          "size": 89898,
+          "sha512": "e204ece3e2a1fea146ed05ca0718cd31939d85e45b4e35fcd3c7930fe4f9a42e426bb9d30114a3e2ccacd0314e2bbd031f9afb5754b6c53fbae79af8425593a2",
+          "sha256": "defaf4794121679bc5b09ce756ed41b4937fd216214ed57b47f47630209df1cd",
+          "sha1": "009c283e4e8f7d1860f31322185846d94c72daff",
+          "md5": "feaf4c6793d9a3c3e0b9ba5750be3f95"
+        }
+      ]
+    }
+  ]
+}

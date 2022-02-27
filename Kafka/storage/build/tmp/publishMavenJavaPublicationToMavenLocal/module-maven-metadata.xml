@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.kafka</groupId>
+  <artifactId>kafka-storage</artifactId>
+  <versioning>
+    <latest>3.1.0-SNAPSHOT</latest>
+    <release>3.0.0-SNAPSHOT-12648-Pt3-addNamedTopology-API</release>
+    <versions>
+      <version>3.0.0-SNAPSHOT</version>
+      <version>3.1.0-SNAPSHOT</version>
+      <version>3.0.0-SNAPSHOT-12648-Pt3-addNamedTopology-API</version>
+    </versions>
+    <lastUpdated>20210713013736</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.kafka",
+    "module": "kafka-storage-api",
+    "version": "3.1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kafka-storage-api-3.1.0-SNAPSHOT.jar",
+          "url": "kafka-storage-api-3.1.0-SNAPSHOT.jar",
+          "size": 22494,
+          "sha512": "71dbe1ee25279b5580336f240a0230f783f63d62bbf8f8062eaaaeb3b38a1fa7075cf0c675f6771422d95fcc15f2863da698d5c6971583766aa4fe38c69843ca",
+          "sha256": "9e14bfffbdc809ac873e2d76777e6c23a34b8025b84d7909c5759fdbf774c1cc",
+          "sha1": "3ebad9c47137d2d144fbf8ae03062ad7561edb05",
+          "md5": "5c347dea5660b5fe2d6ab195590c7c5d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.kafka",
+          "module": "kafka-clients",
+          "version": {
+            "requires": "3.1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kafka-storage-api-3.1.0-SNAPSHOT.jar",
+          "url": "kafka-storage-api-3.1.0-SNAPSHOT.jar",
+          "size": 22494,
+          "sha512": "71dbe1ee25279b5580336f240a0230f783f63d62bbf8f8062eaaaeb3b38a1fa7075cf0c675f6771422d95fcc15f2863da698d5c6971583766aa4fe38c69843ca",
+          "sha256": "9e14bfffbdc809ac873e2d76777e6c23a34b8025b84d7909c5759fdbf774c1cc",
+          "sha1": "3ebad9c47137d2d144fbf8ae03062ad7561edb05",
+          "md5": "5c347dea5660b5fe2d6ab195590c7c5d"
+        }
+      ]
+    }
+  ]
+}
